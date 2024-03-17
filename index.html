@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Import CSS files -->
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./Components/header/header.css" />
+    <link rel="stylesheet" href="./Components/nav/nav.css" />
+    <link rel="stylesheet" href="./Components/about/about.css" />
+    <link rel="stylesheet" href="./Components/experience/experience.css" />
+    <link rel="stylesheet" href="./Components/services/services.css" />
+    <link rel="stylesheet" href="./Components/portfolio/portfolio.css" />
+    <link rel="stylesheet" href="./Components/testimonials/testimonials.css" />
+    <link rel="stylesheet" href="./Components/contact/contact.css" />
+    <link rel="stylesheet" href="./Components/footer/footer.css" />
+
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+  />
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <header>
+      <div class="container header__container">
+        <h5>Hello I'm</h5>
+        <h1>Hamza Mushtaq</h1>
+        <h5 class="text-light">Fullstack Developer</h5>
+        <div class="cta">
+          <a href="./cv.pdf" download class="btn">Download CV</a>
+          <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+        <div class="header__socials">
+          <a href="https://linkedin.com" target="_blank"
+            ><span class="social-icon"
+              ><i class="bx bxl-linkedin-square"></i></span
+          ></a>
+          <a href="https://github.com/hamzamushtaq092" target="_blank"
+            ><span class="social-icon"><i class="bx bxl-github"></i></span
+          ></a>
+          <a href="https://facebook.com" target="_blank"
+            ><span class="social-icon"
+              ><i class="bx bxl-facebook-square"></i></span
+          ></a>
+        </div>
+        <div class="me">
+          <img src="me.jpg" alt="About-Image" />
+        </div>
+        <a href="#contact" class="scroll__down">Scroll Down</a>
+      </div>
+    </header>
+
+
+
+    <div id="nav"></div>
+    <nav>
+      <a href="#" class="active"><i class="bx bx-home"></i></a>
+
+      <a href="#about"
+        ><span class="material-symbols-outlined"> person </span></a
+      >
+      <a href="#experience"
+        ><span class="material-symbols-outlined"> work </span></a
+      >
+      <a href="#services"
+        ><span class="material-symbols-outlined"> linked_services </span>
+      </a>
+      <a href="#contact"><i class="bx bxs-message-rounded"></i></a>
+    </nav>
+
+    <div id="about"></div>
+
+    <section id="about">
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+
+      <div class="container about__container">
+        <div class="about__me">
+          <div class="about__me-image">
+            <img src="me.jpg" alt="About-Image" />
+          </div>
+        </div>
+
+        <div class="about__content">
+          <div class="about__cards">
+            <article class="about__card">
+              <span class="material-symbols-outlined"> workspace_premium </span>
+              <h5>Experience</h5>
+              <small>3+ Years Working</small>
+            </article>
+
+            <article class="about__card">
+              <span class="material-symbols-outlined"> person </span>
+              <h5>Clients</h5>
+              <small>200+ Worldwide</small>
+            </article>
+
+            <article class="about__card">
+              <span class="material-symbols-outlined"> task </span>
+              <h5>Projects</h5>
+              <small>80+ completed</small>
+            </article>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+            cumque illum velit aliquam corrupti nobis, accusamus nesciunt
+            officiis inventore qui impedit totam iusto eaque fugiat pariatur
+            sunt laboriosam natus repellendus.
+          </p>
+          <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+
+    <div id="experience"></div>
+    <section id="experience">
+      <h5>What Skills I Have</h5>
+      <h2>My Experience</h2>
+
+      <div class="experience__container">
+        <div class="experience__frontend">
+          <h3>Frontend Development</h3>
+          <div class="experience__content">
+            <article class="experience__details">
+              <span class="experience__details-icons">&#10003;</span>
+              <div>
+                <h4>HTML</h4>
+                <small class="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <!-- Repeat the above article structure for other frontend details -->
+          </div>
+        </div>
+
+        <!-- End of frontEnd -->
+
+        <div class="back__frontend">
+          <h3>Backend Development</h3>
+          <div class="experience__content">
+            <article class="experience__details">
+              <span class="experience__details-icons">&#10003;</span>
+              <div>
+                <h4>HTML</h4>
+                <small class="text-light">Experienced</small>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <div id="services"></div>
+    <section id="services">
+      <div class="container services__container">
+        <article class="service">
+          <div class="service__head">
+            <h3>UI/UX Designer</h3>
+          </div>
+          <ul class="service__list">
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <div class="service__head">
+            <h3>UI/UX Designer</h3>
+          </div>
+          <ul class="service__list">
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article class="service">
+          <div class="service__head">
+            <h3>UI/UX Designer</h3>
+          </div>
+          <ul class="service__list">
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> check </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                labore aliquid quidem amet tempore doloremque, rerum soluta
+                deserunt iste incidunt, vel exercitationem corrupti ab nemo ex
+                saepe ducimus aliquam eum.
+              </p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <div id="portfolio"></div>
+    <section id="portfolio">
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
+      <div class="container portfolio__container">
+        <article class="portfolio__item">
+          <div class="portfolio_item_image">
+            <img
+              src="./portfolio1.jpg"
+              alt="Crypto Currency Dashboard & Financial Visualization"
+            />
+          </div>
+          <h3>Crypto Currency Dashboard & Financial Visualization</h3>
+          <div class="portfolio__item-cta">
+            <a href="https://github.com" class="btn" target="_blank"
+              >Github</a
+            >
+            <a
+              href="https://dribbble.com"
+              class="btn btn-primary"
+              target="_blank"
+              >Live Demo</a
+            >
+          </div>
+        </article>
+        <article class="portfolio__item">
+          <div class="portfolio_item_image">
+            <img
+              src="./portfolio2.jpg"
+              alt="Crypto Currency Dashboard & Financial Visualization"
+            />
+          </div>
+          <h3>Crypto Currency Dashboard & Financial Visualization</h3>
+          <div class="portfolio__item-cta">
+            <a href="https://github.com" class="btn" target="_blank"
+              >Github</a
+            >
+            <a
+              href="https://dribbble.com"
+              class="btn btn-primary"
+              target="_blank"
+              >Live Demo</a
+            >
+          </div>
+        </article>
+
+        <article class="portfolio__item">
+          <div class="portfolio_item_image">
+            <img
+              src="./portfolio3.jpg"
+              alt="Crypto Currency Dashboard & Financial Visualization"
+            />
+          </div>
+          <h3>Crypto Currency Dashboard & Financial Visualization</h3>
+          <div class="portfolio__item-cta">
+            <a href="https://github.com" class="btn" target="_blank"
+              >Github</a
+            >
+            <a
+              href="https://dribbble.com"
+              class="btn btn-primary"
+              target="_blank"
+              >Live Demo</a
+            >
+          </div>
+        </article>
+       
+      </div>
+    </section>
+
+    <div id="testimonials"></div>
+    <section id="testmonials">
+      <h5>Review from Clients</h5>
+      <h2>Testimonials</h2>
+
+      <div class="swiper-container container testimonials__container">
+        <div class="swiper-wrapper">
+      
+          <div class="swiper-slide testimonial">
+            <div class="client__avatar">
+              <img src="./avatar1.jpg" />
+            </div>
+            <h5 class="client__name">Hamza</h5>
+            <small class="client__review"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              cumque illum velit aliquam corrupti nobis, accusamus nesciunt
+              officiis inventore qui impedit totam iusto eaque fugiat pariatur
+              sunt laboriosam natus repellendus.</small
+            >
+          </div>
+
+          <!-- Additional swiper slides for other testimonials -->
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <script>
+      const data = [
+        {
+          avatar: AVTR1,
+          namee: "Hamza",
+
+          review:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, cumque illum velit aliquam corrupti nobis, accusamus nesciunt officiis inventore qui impedit totam iusto eaque fugiat pariatur sunt laboriosam natus repellendus.",
+        },
+        {
+          avatar: AVTR2,
+          namee: "Hamza",
+          review:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, cumque illum velit aliquam corrupti nobis, accusamus nesciunt officiis inventore qui impedit totam iusto eaque fugiat pariatur sunt laboriosam natus repellendus.",
+        },
+        {
+          avatar: AVTR3,
+          namee: "Hamza",
+
+          review:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, cumque illum velit aliquam corrupti nobis, accusamus nesciunt officiis inventore qui impedit totam iusto eaque fugiat pariatur sunt laboriosam natus repellendus.",
+        },
+      ];
+
+      function displayHomeScreen() {
+        let itemsContainer = document.querySelector(".swiper-wrapper");
+        if (!itemsContainer) {
+          return;
+        }
+        let innerHTML = "";
+        data.forEach((item) => {
+          innerHTML += `
+          console.log("hamza")
+
+        <div class="swiper-slide testimonial">
+            <div class="client__avatar">
+              <img src="${data.avatar}" alt="" />
+            </div>
+            <h5 class="client__name">${data.namee}</h5>
+            <small class="client__review"
+              > ${data.review}</small
+            >
+          </div>
+       `;
+        });
+        itemsContainer.innerHTML = innerHTML;
+      }
+      displayHomeScreen();
+    </script>
+
+    <div id="contact"></div>
+    <section id="contact">
+      <h5>Get in Touch</h5>
+      <h2>Contact Me</h2>
+      <div class="container contact__container">
+        <div class="contact__options">
+          <article class="contact__option">
+            <span class="contact_option-img">&#9993;</span>
+            <h4>Email</h4>
+            <h5>hamzamushtaq0923@gmail.com</h5>
+            <a href="mailto:hamzamushtaq0923@gmail.com" target="_blank"
+              >Send a message</a
+            >
+          </article>
+          <article class="contact__option">
+            <span>&#128172;</span>
+            <h4>Messenger</h4>
+            <h5>Hamza Mushtaq</h5>
+            <a href="https://m/me/hamzamushtaq" target="_blank"
+              >Send a message</a
+            >
+          </article>
+          <article class="contact__option">
+            <span>&#128241;</span>
+            <h4>WhatsApp</h4>
+            <h5>+92 316-4905075</h5>
+            <a
+              href="https://api.whatsapp.com/send?phone=+923164905075"
+              target="_blank"
+              >Send a message</a
+            >
+          </article>
+        </div>
+        <form id="contact-form">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="7"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <script src="contact.js"></script>
+
+
+    <div id="footer"></div>
+
+    <footer>
+      <a href="#" class="footer__logo">Hamza Mushtaq</a>
+
+      <ul class="permalinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="footer_socials">
+        <a href="https://facebook.com"
+          ><i class="bx bxl-facebook-square"></i
+        ></a>
+        <a href="https://instagram.com"><i class="bx bxl-instagram"></i></a>
+        <a href="https://twitter.com"><i class="bx bxl-twitter"></i></a>
+      </div>
+
+      <div class="footer__copyright">
+        <small>&copy; Hamza Mushtaq. All rights reserved</small>
+      </div>
+    </footer>
+
+   
+</html>
